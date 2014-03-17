@@ -21,6 +21,8 @@
 		D36A598918C6A9BF00D5C0DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36A596B18C6A9BF00D5C0DD /* UIKit.framework */; };
 		D36A599118C6A9BF00D5C0DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D36A598F18C6A9BF00D5C0DD /* InfoPlist.strings */; };
 		D36A599318C6A9BF00D5C0DD /* RandomRoadtripTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D36A599218C6A9BF00D5C0DD /* RandomRoadtripTests.m */; };
+		D36A599E18C6B4DC00D5C0DD /* RRRouteMapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D36A599D18C6B4DC00D5C0DD /* RRRouteMapViewController.m */; };
+		D36A59A018C6B65600D5C0DD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D36A599F18C6B65600D5C0DD /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D36A598E18C6A9BF00D5C0DD /* RandomRoadtripTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RandomRoadtripTests-Info.plist"; sourceTree = "<group>"; };
 		D36A599018C6A9BF00D5C0DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D36A599218C6A9BF00D5C0DD /* RandomRoadtripTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomRoadtripTests.m; sourceTree = "<group>"; };
+		D36A599C18C6B4DC00D5C0DD /* RRRouteMapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RRRouteMapViewController.h; sourceTree = "<group>"; };
+		D36A599D18C6B4DC00D5C0DD /* RRRouteMapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RRRouteMapViewController.m; sourceTree = "<group>"; };
+		D36A599F18C6B65600D5C0DD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36A59A018C6B65600D5C0DD /* MapKit.framework in Frameworks */,
 				D36A596A18C6A9BF00D5C0DD /* CoreGraphics.framework in Frameworks */,
 				D36A596C18C6A9BF00D5C0DD /* UIKit.framework in Frameworks */,
 				D36A596818C6A9BF00D5C0DD /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		D36A596618C6A9BF00D5C0DD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D36A599F18C6B65600D5C0DD /* MapKit.framework */,
 				D36A596718C6A9BF00D5C0DD /* Foundation.framework */,
 				D36A596918C6A9BF00D5C0DD /* CoreGraphics.framework */,
 				D36A596B18C6A9BF00D5C0DD /* UIKit.framework */,
@@ -115,6 +122,8 @@
 				D36A597618C6A9BF00D5C0DD /* RRAppDelegate.h */,
 				D36A597718C6A9BF00D5C0DD /* RRAppDelegate.m */,
 				D36A597918C6A9BF00D5C0DD /* Main.storyboard */,
+				D36A599C18C6B4DC00D5C0DD /* RRRouteMapViewController.h */,
+				D36A599D18C6B4DC00D5C0DD /* RRRouteMapViewController.m */,
 				D36A597C18C6A9BF00D5C0DD /* RRViewController.h */,
 				D36A597D18C6A9BF00D5C0DD /* RRViewController.m */,
 				D36A597F18C6A9BF00D5C0DD /* Images.xcassets */,
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D36A597818C6A9BF00D5C0DD /* RRAppDelegate.m in Sources */,
+				D36A599E18C6B4DC00D5C0DD /* RRRouteMapViewController.m in Sources */,
 				D36A597418C6A9BF00D5C0DD /* main.m in Sources */,
 				D36A597E18C6A9BF00D5C0DD /* RRViewController.m in Sources */,
 			);
